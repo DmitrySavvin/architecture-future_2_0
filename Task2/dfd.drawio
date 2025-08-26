@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="5H-hBNvwUbpA375HUfUg">
+    <mxGraphModel dx="5238" dy="2812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QS6wYorZDuto70AmAxFD-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp;Диаграмма потоков данных по доменам&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="40" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-1" target="iz8QDXvp_ehCNWUFmsa7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="325" />
+              <mxPoint x="-720" y="340" />
+              <mxPoint x="-640" y="340" />
+              <mxPoint x="-640" y="400" />
+              <mxPoint x="-560" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-14" value="Финансовые данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-13">
+          <mxGeometry x="-0.3346" y="-3" relative="1" as="geometry">
+            <mxPoint x="2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-1" value="Домен оказания финансовых услуг" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-2" value="Домен оказания медицинских услуг" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-4" target="iz8QDXvp_ehCNWUFmsa7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-607" y="460" />
+              <mxPoint x="-607" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-15" value="Медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-8">
+          <mxGeometry x="-0.4424" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-4" value="Оператор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-5" value="Домен управления поставщиками оборудования и лекарств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-6" value="Домен ML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-7" target="iz8QDXvp_ehCNWUFmsa7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-12" value="Структурированные медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-11">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
+            <mxPoint x="52" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-7" target="iz8QDXvp_ehCNWUFmsa7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-560" y="320" />
+              <mxPoint x="-630" y="320" />
+              <mxPoint x="-630" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-17" value="Счета на оплату услуг" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-16">
+          <mxGeometry x="-0.348" y="-3" relative="1" as="geometry">
+            <mxPoint x="-114" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-7" value="Сервис анализа несктруктурированных и структурированных данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="270" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-19" value="хранилище данных" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="570" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.852;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-7" target="iz8QDXvp_ehCNWUFmsa7-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="605" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="457" />
+              <mxPoint x="-290" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-27" value="Неструктурированные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-26">
+          <mxGeometry x="-0.325" relative="1" as="geometry">
+            <mxPoint x="41" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-6" target="iz8QDXvp_ehCNWUFmsa7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="575" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="575" />
+              <mxPoint x="-250" y="575" />
+              <mxPoint x="-250" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-29" value="Запрос к API для работы с данными" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-28">
+          <mxGeometry x="0.0594" y="1" relative="1" as="geometry">
+            <mxPoint x="71" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-7" target="iz8QDXvp_ehCNWUFmsa7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iz8QDXvp_ehCNWUFmsa7-5" target="iz8QDXvp_ehCNWUFmsa7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-33" value="Данные по инвентаризации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iz8QDXvp_ehCNWUFmsa7-31">
+          <mxGeometry x="-0.656" y="3" relative="1" as="geometry">
+            <mxPoint x="27" y="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iz8QDXvp_ehCNWUFmsa7-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Разделение системы на домены : домен оказания финансовых услуг, домен управления поставщиками оборудования и лекарств, домен оказания медицинских услуг, домен ML.&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Разделение выполнено согласно области ответственности. При данном разделении домены работают независимо друг от друга и реализауют различную бизнес-логику и может развиваться отдельными командами. Обмен данными между доменами происходит через центральный узел анализа данных.&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="110" width="530" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
